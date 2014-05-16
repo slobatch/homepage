@@ -6,8 +6,17 @@
   text-transform: uppercase;
 }
 
+.nav ul {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
 .nav li {
   display: inline;
+}
+
+.nav p{
+  margin: 0px;
 }
 
 .logo {
@@ -40,9 +49,10 @@
 
 .main-text-box h1 {
   color: #333333;
-  font-size: 72px;  
+  font-size: 77px;  
   font-family: 'Lobster', cursive;
-  font-weight: bold;
+  font-weight: normal;
+  line-height: 1;
 }
 
 .main-text-box h2 {
@@ -71,15 +81,28 @@
 }
 
 .main-text-box-content {
-  padding: 10px
+  padding: 5px;
 }
 
 .main-text-box hr{
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
 
+}
+
+.social-icons-area a{
+  color: black;
+}
+
+.social-icons-area a:hover{
+  color: #428bca;
+}
+
+.social-icons-area {
+  margin-bottom: 3px;
 }
 
 .loc-edu-icons-area p {
