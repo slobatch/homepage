@@ -1,0 +1,10 @@
+# Site settings
+title: SLOG
+email: serge.lobatch@gmail.com
+description: "The Ramblings of and First Hand-made Blog by Serge Lobatch, Lover of Split Infinitives"
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
