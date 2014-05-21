@@ -1,9 +1,9 @@
 # Site settings
-title: SLOG
+title: Serge Lobatch
 email: serge.lobatch@gmail.com
-description: "The Ramblings of and First Hand-made Blog by Serge Lobatch, Lover of Split Infinitives"
+description: "the first and only official personal site of serge lobatch"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://slobatch.github.io"
 
 # Build settings
 markdown: kramdown
