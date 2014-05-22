@@ -12,6 +12,26 @@ body{
 }
 */
 
+.navbar {
+  margin: 0px;
+}
+
+.navbar-brand{
+  font-family: 'Lobster', sans-serif;
+  font-size: 30px;
+  text-transform: none;
+  color: black;
+}
+
+/*.navbar-brand:hover{
+  color: #f7f7de;
+  text-shadow: 2px 2px black;
+}*/
+
+.nav{
+  padding: 0px;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -21,22 +41,26 @@ body{
 }
 
 .nav ul {
-  margin-top: 3px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 .nav li {
   display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+.active a{
+  background-color: #F5F5F5;
+  color: black;
+}
+
+.nav a:hover{
+  color: black;
 }
 
 .nav p{
   margin: 0px;
-}
-
-
-.logo {
-  font-family: 'Lobster', sans-serif;
-  font-size: 30px;
 }
 
 .main-back{
@@ -57,8 +81,8 @@ body{
 }
 
 .main-text-box{
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
