@@ -2,8 +2,8 @@
 title: Serge Lobatch
 email: serge.lobatch@gmail.com
 description: "the first and only official personal site of serge lobatch"
-baseurl: "http://slobatch.github.io"
-url: "http://slobatch.github.io"
+baseurl: "http://slobatch.github.io/"
+url: "http://slobatch.github.io/"
 
 # Build settings
 markdown: kramdown
