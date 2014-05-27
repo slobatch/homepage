@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Working with Jekyll"
+title:  "Testing it All"
 date:   2014-05-24
-categories: blog building
+categories: blog_construction
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
