@@ -50,10 +50,20 @@ a:visited { color: #205caa; }
   background-image: -ms-linear-gradient(right bottom, #220F32 0%, #3E2950 100%);
   background-image: linear-gradient(to right bottom, #220F32 0%, #3E2950 100%);
   color: white;
+  height: 300px;
+}
+
+.jumbotron .container {
+
 }
 
 .jumbotron h1 {
+  margin-top: 150px;
   font-family: 'Lobster', sans-serif;
+}
+
+.jumbotron p {
+
 }
 
 /* Homepage Styles */
@@ -284,7 +294,7 @@ a:visited { color: #205caa; }
 
 .page-content {
   padding: 30px 0;
-  background-color: #5b5b5b;
+  background-color: #efefef;
 }
 
 
