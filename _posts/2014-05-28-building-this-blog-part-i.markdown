@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Building this Blog: Part I"
-date:	2014-05-26
+date:	2014-05-28
 categories: blog_construction
+comments: true
 ---
 
 #Part I of III: A Wartorn Past#

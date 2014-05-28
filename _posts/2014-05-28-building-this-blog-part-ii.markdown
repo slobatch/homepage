@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Building this Blog: Part II"
-date: 	2014-05-27
+date: 	2014-05-28
 categories: blog_construction
+comments: true
 ---
 
 #Part II of III: Strengths and Weaknessses#
@@ -10,7 +11,7 @@ categories: blog_construction
 ###Pelican Problems###
 ----
 
-If you read [Part I]( ), you will know that I was very wary of using a static site generator. When I was working with Pelican, to say that I was confused would be an understatement. Recall that I had three main issues with it: 
+If you read [Part I]( {{ post_url 2014-05-28-building-this-blog-part-i }}), you will know that I was very wary of using a static site generator. When I was working with Pelican, to say that I was confused would be an understatement. Recall that I had three main issues with it: 
 
 1. **Pelican's documentation was lacking.**
 
