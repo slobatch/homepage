@@ -12,7 +12,7 @@ If you know me at all, you know that I'm not much for blogging. When I first sta
 
 I've never been good at keeping an up-to-date blog, but I was really drawn to the challenge of building one from scratch. I used to have a Blogger blog, and a Livejournal before that, but when I once tried putting together a Wordpress blog, I quickly became overwhelmed and failed miserably. Much later, while working with Radico, I was introduced to the concept of static site generators. They were using Pelican at the time, and I thought I'd give it a crack. Having just started working with git and Github at around the same time, I thought it would be perfect to host my personal page on Github Pages. I ran into a few issues, but they all culminated in the fact that, I simply couldn't quite figure out how Pelican worked. 
 
-I think their were a handful of factors that contributed to my lack of succes:
+I think there were a handful of factors that contributed to my lack of succes:
 
 1. Pelican's documentation was lacking.
 
