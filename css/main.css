@@ -503,7 +503,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
   .jumbotron{
     height: 200px;
