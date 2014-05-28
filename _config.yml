@@ -5,6 +5,9 @@ description: "the first and only official personal site of serge lobatch"
 baseurl: "http://slobatch.github.io"
 url: ""
 
-# Build settings
+# Default build settings
 markdown: kramdown
-permalink: pretty
+# permalink: /slog/
+
+# Serge's build settings
+permalink: /slog/:year/:i_month/:i_day/:title

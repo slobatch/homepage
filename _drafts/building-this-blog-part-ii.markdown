@@ -5,28 +5,24 @@ date: 	2014-05-27
 categories: blog_construction
 ---
 
-###Part I of II###
+###Part II of II###
 
-If you know me at all, you know that I'm not much for blogging. When I first started putting this site together, my girlfriend asked me, "What are _you_ going to blog about?" The fact of the matter is that I'm not sure. But just check [my bio](http://slobatch.github.bio) and you'll see that I wrote, "I always had way more fun building cool houses than actually playing with the Sims." This process has been similar in that way. 
-
-I've never been good at keeping an up-to-date blog, but I was really drawn to the challenge of building one from scratch. I used to have a Blogger blog, and a Livejournal before that, but when I once tried putting together a Wordpress blog, I quickly became overwhelmed and failed miserably. Much later, while working with Radico, I was introduced to the concept of static site generators. They were using Pelican at the time, and I thought I'd give it a crack. Having just started working with git and Github at around the same time, I thought it would be perfect to host my personal page on Github Pages. I ran into a few issues, but they all culminated in the fact that, I simply couldn't quite figure out how Pelican worked. 
-
-I think their were a handful of factors that contributed to my lack of succes:
+If you read [Part I]( ), you will know that I was very wary of using a static site generator. When I was working with Pelican, to say that I was confused would be an understatement. Recall that I had three main issues with it: 
 
 1. Pelican's documentation was lacking.
 
-1. I didn't understand how the Pelican files came together.
+2. I didn't understand how the Pelican files came together.
 
-1. Github doesn't run Pelican. 
+3. Github doesn't run Pelican. 
 
-About three weeks ago, right around the time I began working at Knotable, I realized that as someone who was going to be joining the tech community, I needed to have a more respectable online presence. Up until that point, I had never really needed a personal website, and frankly didn't feel the need that it was something I wanted to spend time or money on (especially money). I made do with my Facebook, and my Twitter, my LinkedIn, and my about.me page, but I didn't have a single, legitimate destination on the Worldwide Web. 
+Regarding point one, I must stress that it's not that I thought Pelican's documentation was missing something; it wasn't welcoming enough for me to find out if it was in the first place. I found that Jekyll's user guide was extremely friendly for someone who didn't understand static site generators. In fact, knowing what I know now, I now understand what I didn't get before, and if I was running my own server, would probably be able to get a static site up using Pelican just fine.
 
-First I challenged myself to create a clone of my about.me page from (almost) scratch in an afternoon. I pieced it together on my last day of work at Experiences Unlimited. None of the links were functional, but I had gotten the thing to look passably like my about.me page.
+1. Jekyll's documentation is excellent for the uninitiated. 
 
-When I started thinking about navigation however, and what I would be linking to, I started thinking about this blog. I considered using [Medium](http://www.medium.com), but I was reluctant to start using another blogging service, and I was also reluctant to rely on embeds. 
+I realize now what I didn't understand about the Pelican files coming together had a little bit to do with the first problem, and a little bit to do with the third problem. While I could get Pelican to process my files locally and output something into the `output/` directory, I couldn't for the life of me get the blog published on Github Pages unless I added the files in the `output/` directory. For me, that seemed to defeat the purpose of using a static site generator. 
 
-After doing a quick search for _"Github blog"_, I found a Github [help page about Jekyll](https://help.github.com/articles/using-jekyll-with-pages). On the one hand, I like things that are just supposed to work, and using trello had me truly fall in love with Markdown. But the words 'Static Site Generator' caused me to shudder in fear of the headache that Pelican had caused me.
+I'll admit that I was missing the point of using a static site generator, that I could an element of a webpage once and reuse it thorughout my site. I'll take whatever blame isn't placed on unfriendly documentation. I didn't understand how the content was different than the template, and that a template wasn't styling, but rather the file that told the compiler which pieces of html to put together. Even my failed attempts at using Wordpress way back in the day faired better. Jekyll addresses this way earlier on, and with more clarity. 
 
-**I accepted my own challenge of putting together a slightly more grown up website, using Jekyll, Github, and Bootstrap. If you're reading this, I have succeeded.**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2\. I understood quickly how Jekyll puts files together.
 
-So I began putting that little project together. I branched my old attempts at getting my Pelican site to work on Github off, and got to work on a brand new branch.
+It seemed like I could just upload Markdown files to my repo and see posts come out as beautifully styled html, but I couldn't, and that was stressful. 
