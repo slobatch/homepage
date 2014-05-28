@@ -166,11 +166,22 @@ a:visited { color: #205caa; }
 
 .learn-more {
   background-color: #f7f7f7;
-  padding: 20px 0px 25px 0px;
 }
 
+.learn-more .row{
+  margin: 40px 0px 40px 0px;
+}
+
+/*.learn-more .bullet-box{
+  background-color: #ededed
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}*/
+
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
