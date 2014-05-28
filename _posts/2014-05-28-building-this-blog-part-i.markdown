@@ -6,13 +6,13 @@ categories: blog_construction
 comments: true
 ---
 
-#Part I of III: A Wartorn Past#
+#Part I of III: A War-Torn Past#
 
 If you know me at all, you know that I'm not much for blogging. When I first started putting this site together, my girlfriend asked me, "What are _you_ going to blog about?" The fact of the matter is that I'm not sure. But just check [my bio](http://slobatch.github.bio) and you'll see that I wrote, "I always had way more fun building cool houses than actually playing with the Sims." This process has been similar in that way. 
 
 I've never been good at keeping an up-to-date blog, but I was really drawn to the challenge of building one from scratch. I used to have a Blogger blog, and a Livejournal before that, but when I once tried putting together a Wordpress blog, I quickly became overwhelmed and failed miserably. Much later, while working with Radico, I was introduced to the concept of static site generators. They were using Pelican at the time, and I thought I'd give it a crack. Having just started working with git and Github at around the same time, I thought it would be perfect to host my personal page on Github Pages. I ran into a few issues, but they all culminated in the fact that, I simply couldn't quite figure out how Pelican worked. 
 
-I think there were a handful of factors that contributed to my lack of succes:
+I think there were a handful of factors that contributed to my lack of success:
 
 1. Pelican's documentation was lacking.
 
@@ -26,7 +26,7 @@ First I challenged myself to create a clone of my about.me page from (almost) sc
 
 When I started thinking about navigation however, and what I would be linking to, I started thinking about this blog. I considered using [Medium](http://www.medium.com), but I was reluctant to start using another blogging service, and I was also reluctant to rely on embeds. 
 
-After doing a quick search for _"Github blog"_, I found a Github [help page about Jekyll](https://help.github.com/articles/using-jekyll-with-pages). On the one hand, I like things that are just supposed to work, and using trello had me truly fall in love with Markdown. But the words 'Static Site Generator' caused me to shudder in fear of the headache that Pelican had caused me.
+After doing a quick search for _"Github blog"_, I found a Github [help page about Jekyll](https://help.github.com/articles/using-jekyll-with-pages). On the one hand, I like things that are just supposed to work, and using Trello had me truly fall in love with Markdown. But the words 'Static Site Generator' caused me to shudder in fear of the headache that Pelican had caused me.
 
 **I accepted my own challenge of putting together a slightly more grown up website, using Jekyll, Github, and Bootstrap. If you're reading this, I have succeeded.**
 
