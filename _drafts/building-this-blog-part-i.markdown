@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Building this Blog Part I"
+title:  "Building this Blog: Part I"
 date:	2014-05-26
 categories: blog_construction
 ---
 
-###Part I of II###
+#Part I of III: A Wartorn Past#
 
 If you know me at all, you know that I'm not much for blogging. When I first started putting this site together, my girlfriend asked me, "What are _you_ going to blog about?" The fact of the matter is that I'm not sure. But just check [my bio](http://slobatch.github.bio) and you'll see that I wrote, "I always had way more fun building cool houses than actually playing with the Sims." This process has been similar in that way. 
 

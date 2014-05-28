@@ -232,9 +232,12 @@ a:visited { color: #205caa; }
 
 /* Site footer */
 
-.site-footer {
+.footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
+}
+
+.footer .row{
 }
 
 .footer-heading {
@@ -379,6 +382,12 @@ a:visited { color: #205caa; }
   margin: 30px 0;
 }
 
+.post-content hr {
+  color: black;
+  background-color: black;
+  height: 1px;
+}
+
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
@@ -489,23 +498,6 @@ a:visited { color: #205caa; }
 
   .jumbotron h1{
     margin-top: 100px;
-  }
-
-  .footer-col-1 { width: 50%; }
-
-  .footer-col-2 {
-    width: 45%; /*fallback*/
-    width: -webkit-calc(50% - 10px);
-    width: -moz-calc(50% - 10px);
-    width: -o-calc(50% - 10px);
-    width: calc(50% - 10px);
-    margin-right: 0;
-  }
-
-  .site-footer .column.footer-col-3 {
-    width: auto;
-    float: none;
-    clear: both;
   }
 
 }
