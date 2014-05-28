@@ -30,7 +30,7 @@ Regarding the first Pelican Problem, I must stress that it's not that I thought 
 
 I realize now what I didn't understand about the Pelican files coming together had a little bit to do with the first problem, and a little bit to do with me. While I could get Pelican to process my files locally and output something into the `output/` directory, it felt like I was missing how the "black box" worked.
 
-I'll admit that I was missing the point of using a static site generator, that I could create an element of a webpage once and reuse it thorughout my site. I'll take whatever blame isn't placed on unfriendly documentation. I didn't understand how the content was different than the template, and that a template wasn't styling, but rather the file that told the compiler which pieces of html to put together. Even my failed attempts at using Wordpress way back in the day faired better. Jekyll addresses this way earlier on, and with more clarity. 
+I'll admit that I was missing the point of using a static site generator, that I could create an element of a webpage once and reuse it throughout my site. I'll take whatever blame isn't placed on unfriendly documentation. I didn't understand how the content was different than the template, and that a template wasn't styling, but rather the file that told the compiler which pieces of html to put together. Even my failed attempts at using Wordpress way back in the day faired better. Jekyll addresses this way earlier on, and with more clarity. 
 
 It's simple: any file that contains a YAML front matter block gets processed. The `layout` variable defines which layout gets used. The layout simply specifies the order that smaller html elements go in. 
 
