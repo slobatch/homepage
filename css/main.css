@@ -50,7 +50,8 @@ a:visited { color: #205caa; }
   background-image: -ms-linear-gradient(right bottom, #220F32 0%, #3E2950 100%);
   background-image: linear-gradient(to right bottom, #220F32 0%, #3E2950 100%);
   color: white;
-  height: 300px;
+  min-height: 300px;
+  padding-bottom: 5px;
   margin: 0px;
 }
 
@@ -58,9 +59,15 @@ a:visited { color: #205caa; }
 
 }
 
-.jumbotron h1 {
+.jumbotron .row {
   padding-top: 145px;
   padding-bottom: 5px;
+  margin: 0px;
+}
+
+.jumbotron h1 {
+/*  padding-top: 145px;
+  padding-bottom: 5px;*/
   margin: 0px;
   font-family: 'Lobster', sans-serif;
 }
@@ -507,12 +514,12 @@ a:visited { color: #205caa; }
 @media screen and (max-width: 767px) {
 
   .jumbotron{
-    height: 200px;
+    min-height: 200px;
     padding-left: 0px;
   }
 
 
-  .jumbotron h1{
+  .jumbotron .row{
     padding-top: 95px;
   }
 
