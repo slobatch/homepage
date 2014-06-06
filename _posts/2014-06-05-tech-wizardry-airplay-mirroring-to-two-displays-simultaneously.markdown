@@ -12,7 +12,7 @@ We thought, "Maybe we can get two Apple TVs and just do Apple Airplay mirroring 
 
 However, a third party app called [AirParrot](http://www.airsquirrels.com/airparrot/) exists that replicates the native Airplay abilities very well. Unfortunately, it doesn't do Airplay mirroring or streaming to two displays either.
 
-#####You _can_ mirror to two Apple TVs at once...#####
+>**You _can_ mirror to two Apple TVs at once...**
 
 It turns out there's a workaround. It turns out that you _can_ mirror to two Apple TVs at once via AirParrot. The trick is that you just run two instances. It turns out that you can run two separate instances of the same app on a mac!
 
