@@ -3,6 +3,7 @@ title: Serge Lobatch
 email: serge.lobatch@gmail.com
 description: "the first and only official personal site of serge lobatch"
 baseurl: "http://www.sergelobatch.com"
+#baseurl: ""
 url: ""
 
 # Default build settings
