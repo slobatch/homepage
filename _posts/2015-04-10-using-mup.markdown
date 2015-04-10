@@ -6,13 +6,13 @@ category: meteor, development, ops
 comments: true
 ---
 
-We [recently learned](https://news.ycombinator.com/item?id=9231200) from some people not related to Knotable, that we're building what is probably the largest Meteor app in existence.
+We [recently learned](https://news.ycombinator.com/item?id=9231200) from some people not related to [Knotable](http://www.knotable.com), that we're building what is probably the largest Meteor app in existence.
 
 If you're reading this, you either know me, or you know that [Meteor](https://www.meteor.com/) is an open-source full-stack framework/platform for building modern, real-time, web and mobile applications. (How about that for some buzz-words?)
 
-Over the past week, one of our developers had been working on converting our [homepage](http://knotable.com) from an Angular.js app to a Meteor one. It seemed only fitting, given the fact that pretty much everything else is Meteor and the fact that everyone hated working with [Jade](http://jade-lang.com/). He had gotten far enough in the process that it was time to deploy it to a server under our control, rather than one hosted on Meteor.com.
+Over the past week, one of our developers, [Gaurav Chikhale](https://github.com/gauravchl) has been working on converting our [homepage](http://knotable.com) from an Angular.js app to a Meteor one. It seemed only fitting, given the fact that pretty much everything else is Meteor and the fact that everyone involved hated working with [Jade](http://jade-lang.com/). He had gotten far enough in the process that it was time to deploy it to a server under our control, rather than one hosted on Github pages or Meteor.com.
 
-Angus McLeod, another product manager and resident Operations consultant suggested using Arunoda's [Meteor-Up](https://github.com/arunoda/meteor-up) (here-after "mup"). The mup documentation is pretty straightforward and even provides a screencast of someone using it to set up a meteor app with Digital Ocean and Compose.io -- tools I'm rather unfamiliar with. I thought that I'd write how to deploy a Meteor app using AWS (Amazon Web Services), which is probably a more common scenario, for a near total noob.
+[Angus McLeod](https://twitter.com/anguspmcleod), another product manager and resident Operations consultant suggested using Arunoda Susiripala's [Meteor-Up](https://github.com/arunoda/meteor-up) (here-after "mup"). The mup documentation is pretty straightforward and even provides a screencast of someone using it to set up a meteor app with Digital Ocean and Compose.io -- tools I'm rather unfamiliar with. I thought that I'd write how to deploy a Meteor app using AWS (Amazon Web Services), which is probably a more common scenario, for a near total noob.
 
 ## Getting started.
 I do all of my (meager) development on a mac. If you're on a linux machine, this will work fine for you as well. If you're using Windows, there are probably utilities that might help you, but I'm not going to try.
