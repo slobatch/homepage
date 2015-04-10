@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Deploying a Meteor app to an AWS server with Meteor-Up "
+date:	2015-05-10
+category: meteor, development, ops
+comments: true
+---
+
+We [recently learned](https://news.ycombinator.com/item?id=9231200) from some people not related to Knotable, that we're building what is probably the largest Meteor app in existence.
+
+If you're reading this, you either know me, or you know that [Meteor](https://www.meteor.com/) is an open-source full-stack framework/platform for building modern, real-time, web and mobile applications. (How about that for some buzz-words?)
+
+Over the past week, one of our developers had been working on converting our [homepage](http://knotable.com) from an Angular.js app to a Meteor one. It seemed only fitting, given the fact that pretty much everything else is Meteor and the fact that everyone hated working with [Jade](http://jade-lang.com/). He had gotten far enough in the process that it was time to deploy it to a server under our control, rather than one hosted on Meteor.com.
+
+Angus McLeod, another product manager and resident Operations consultant suggested using Arunoda's [Meteor-Up](https://github.com/arunoda/meteor-up) (here-after "mup"). The mup documentation is pretty straightforward and even provides a screencast of someone using it to set up a meteor app with Digital Ocean and Compose.io -- tools I'm rather unfamiliar with. I thought that I'd write how to deploy a Meteor app using AWS (Amazon Web Services), which is probably a more common scenario, for a near total noob.
+
+### Getting started.
+I do all of my (meager) development on a mac. If you're on a linux machine, this will work fine for you as well. If you're using Windows, there are probably utilities that might help you, but I'm not going to try.
+
+The first thing you'll want to do is make sure you have Node.js installed on your machine. You'll need it because you need NPM (Node Package Manager). If you're reading this, you probably already do, but I suppose it doesn't hurt to preface this whole process with that. (If you don't know what I'm talking about, either [install Node](https://nodejs.org/) or run like hell.)
+
+If you're all set, you'll want to install mup. Open up terminal and type:
+
+    npm install -g mup
+
+
+(The `-g` flag will install mup globally.)
+
+Once that's out of the way, you'll want to do is get a local copy of your Meteor project. Chances are, you're cloning it from github. Navigate to the project directory (`cd /path/to/project`). Everything else we do with our terminal window will be here. If you're feeling curious, run `mup help` to get familiar with what mup does/can do.
+
+### Initializing and configuring mup
+This stuff is pretty straightforward if you read mup's documentation, but I'll go over it again here really quickly.
+
+In your project directory initialize mup by running:
+
+
+    mup init
+
+
+>This will create two files in your Meteor Up project directory:
+>  - mup.json - Meteor Up configuration file
+>  - settings.json - Settings for Meteor's [settings API](http://docs.meteor.com/#meteor_settings)
+
+Chances are, you won't really have to deal with the settings.json file for a simple app, so we're just going to focus on setting up `mup.json` for now. This is the part where I wish I'd had my own help. But before we set this up, we've got to start a new AWS instance (server), which can be a little intimidating.
+
+### Selecting and launching the correct AWS instance
+Once you log into the AWS console, you're faced with an overwhelming amount of products and features.
+
+![Holy shit look at all this crap.](https://api.monosnap.com/rpc/file/download?id=t5td2kaNHuc5ctgqcN0kBvbNLF1ZoM)
+
+Luckily, we're focused on only one (or two) of them: EC2 (their virtual servers product), and maybe Route 53 (their DNS and Domain Name Registration service).

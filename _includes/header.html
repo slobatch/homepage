@@ -1,36 +1,40 @@
 <header>
   <nav class="navbar" role="navigation">
     <div class="container">
-      <div class="pull-left">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">Serge Lobatch</a>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="pull-left">
+            <a class="navbar-brand" href="{{ site.baseurl }}/">Serge Lobatch</a>
+          </div>
+          <ul class="pull-right nav navbar-nav">
+            {% if page.active_nav == "home" %}
+              <li class="active"><a href="#">About Me</a></li>
+            {% else %}
+              <li><a href="{{ site.baseurl }}/">About Me</a></li>
+            {% endif %}
+            {% if page.active_nav == "blog" %}
+              <li class="active"><a href="/slog">Blog</a></li>
+            {% else %}
+              <li><a href="/slog">Blog</a></li>
+            {% endif %}
+            <!-- {% if page.active_nav == "hobbies" %}
+              <li class="active"><a href="#">Hobbies</a></li>
+            {% else %}
+              <li><a href="#">Hobbies</a></li>
+            {% endif %}
+            {% if page.active_nav == "resume" %}
+              <li class="active"><a href="#">Resume</a></li>
+            {% else %}
+              <li><a href="#">Resume</a></li>
+            {% endif %}
+            {% if page.active_nav == "contact" %}
+              <li class="active"><a href="#">Contact</a></li>
+            {% else %}
+              <li><a href="#">Contact</a></li>
+            {% endif %} -->
+          </ul>
+        </div>
       </div>
-      <ul class="pull-right nav navbar-nav">
-        {% if page.active_nav == "home" %}
-          <li class="active"><a href="#">About Me</a></li>
-        {% else %}
-          <li><a href="{{ site.baseurl }}/">About Me</a></li>
-        {% endif %}
-        {% if page.active_nav == "blog" %}
-          <li class="active"><a href="/slog">Blog</a></li>
-        {% else %}
-          <li><a href="/slog">Blog</a></li>
-        {% endif %}
-        <!-- {% if page.active_nav == "hobbies" %}
-          <li class="active"><a href="#">Hobbies</a></li>
-        {% else %}
-          <li><a href="#">Hobbies</a></li>
-        {% endif %}
-        {% if page.active_nav == "resume" %}
-          <li class="active"><a href="#">Resume</a></li>
-        {% else %}
-          <li><a href="#">Resume</a></li>
-        {% endif %}
-        {% if page.active_nav == "contact" %}
-          <li class="active"><a href="#">Contact</a></li>
-        {% else %}
-          <li><a href="#">Contact</a></li>
-        {% endif %} -->
-      </ul>
     </div>
   </nav>
 </header>
