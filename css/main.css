@@ -32,7 +32,7 @@ a:visited { color: #205caa; }
   max-width: 800px;
   padding: 0 30px;
   margin: 0 auto;
-  
+
 }
 */
 /* Blog Styles */
@@ -103,7 +103,7 @@ a:visited { color: #205caa; }
 
 .main-text-box h1 {
   color: #333333;
-  font-size: 77px;  
+  font-size: 77px;
   font-family: 'Lobster', cursive;
   font-weight: normal;
   line-height: 1;
@@ -193,6 +193,42 @@ a:visited { color: #205caa; }
   font-size: 18px;
   font-weight: bold;
 }
+
+.fallback-headshot {
+  max-width: 300px;
+}
+
+.xxs-fallback-headshot{
+  display:none;
+}
+
+@media (min-width: 992px) {
+  .fallback-headshot {
+    display: none;
+  }
+}
+
+@media (min-width: 565px) {
+  .img-thumbnail {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 564px) {
+  .fallback-headshot {
+    display: none;
+  }
+  .xxs-fallback-headshot {
+    display: inline;
+  }
+
+  .main-text-box h3 {
+    padding: 0px;
+  }
+}
+
 
 
 
