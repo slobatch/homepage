@@ -1,7 +1,12 @@
 ---
 ---
 
+@import 'archive';
+@import 'blog';
+@import 'media';
+@import 'page-content';
+@import 'post';
+@import 'syntax';
 @import 'header';
 @import 'footer';
 @import 'homepage';
-@import 'blog';
