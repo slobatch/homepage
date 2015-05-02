@@ -15,4 +15,4 @@ permalink: /slog/:year/:i_month/:i_day/:title
 
 # Sass directory
 sass:
-    sass_dir: css/_sass
+    sass_dir: _sass
