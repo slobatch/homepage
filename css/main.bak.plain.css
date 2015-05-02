@@ -358,10 +358,10 @@ a:visited { color: #205caa; }
 }
 
 
-/* Home styles */
+/* Archive page styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
+.archive h1 { margin-bottom: 25px; }
 
 .posts { list-style-type: none; }
 

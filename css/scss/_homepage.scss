@@ -1,45 +1,5 @@
-.navbar {
-  margin: 0px;
-}
-
-.navbar-brand{
-  font-family: 'Lobster', sans-serif;
-  font-size: 30px;
-  text-transform: none;
-  color: black;
-}
-
-.nav{
-  padding: 0px;
-}
-
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 25px 10px;
-  text-transform: uppercase;
-}
-
-.nav ul {
-  margin: 0px;
-}
-
-.nav li {
-  display: inline;
-  padding: 0px;
-  margin: 0px;
-}
-
-.active a{
-  background-color: #F5F5F5;
-  color: black;
-}
-
-.nav a:hover{
-  color: black;
-}
-
+/* Homepage Styles */
+/* ----------------------------------------------------------*/
 
 .main-back{
   background-color: black;
@@ -66,7 +26,7 @@
 
 .main-text-box h1 {
   color: #333333;
-  font-size: 77px;  
+  font-size: 77px;
   font-family: 'Lobster', cursive;
   font-weight: normal;
   line-height: 1;
@@ -139,12 +99,55 @@
   background-color: #f7f7f7;
 }
 
+.learn-more .row{
+  margin: 40px 0px 40px 0px;
+}
+
+/*.learn-more .bullet-box{
+  background-color: #ededed
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}*/
+
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
-.learn-more a {
-  color: #00b0ff;
+.fallback-headshot {
+  max-width: 300px;
+}
+
+.xxs-fallback-headshot{
+  display:none;
+}
+
+@media (min-width: 992px) {
+  .fallback-headshot {
+    display: none;
+  }
+}
+
+@media (min-width: 565px) {
+  .img-thumbnail {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 564px) {
+  .fallback-headshot {
+    display: none;
+  }
+  .xxs-fallback-headshot {
+    display: inline;
+  }
+
+  .main-text-box h3 {
+    padding: 0px;
+  }
 }
