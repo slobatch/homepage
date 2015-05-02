@@ -1,0 +1,47 @@
+/* Site header */
+
+.navbar {
+  margin: 0px;
+}
+
+.navbar-brand{
+  font-family: 'Lobster', sans-serif;
+  font-size: 30px;
+  text-transform: none;
+  color: black;
+}
+
+.navbar-brand:visited{
+  color: black;
+}
+
+.nav{
+  padding: 0px;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 25px 10px;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  margin: 0px;
+}
+
+.nav li {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+.active a{
+  background-color: #F5F5F5;
+  color: black;
+}
+
+.nav a:hover{
+  color: black;
+}

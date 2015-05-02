@@ -12,3 +12,7 @@ markdown: kramdown
 
 # Serge's build settings
 permalink: /slog/:year/:i_month/:i_day/:title
+
+# Sass directory
+sass:
+    sass_dir: css/_sass

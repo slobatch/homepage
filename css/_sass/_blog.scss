@@ -1,0 +1,40 @@
+/* Blog Styles */
+/* ----------------------------------------------------------*/
+.jumbotron {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0, #220F32),
+    color-stop(1, #3E2950));
+  background-image: -o-linear-gradient(right bottom, #220F32 0%, #3E2950 100%);
+  background-image: -moz-linear-gradient(right bottom, #220F32 0%, #3E2950 100%);
+  background-image: -webkit-linear-gradient(right bottom, #220F32 0%, #3E2950 100%);
+  background-image: -ms-linear-gradient(right bottom, #220F32 0%, #3E2950 100%);
+  background-image: linear-gradient(to right bottom, #220F32 0%, #3E2950 100%);
+  color: white;
+  min-height: 300px;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+.jumbotron .container {
+
+}
+
+.jumbotron .row {
+  padding-top: 145px;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+.jumbotron h1 {
+/*  padding-top: 145px;
+  padding-bottom: 5px;*/
+  margin: 0px;
+  font-family: 'Lobster', sans-serif;
+}
+
+.jumbotron p {
+  font-size: 21px;
+}
