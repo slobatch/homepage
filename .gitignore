@@ -1,3 +1,4 @@
 #Git Ignore
 _site
 .sass-cache
+_drafts
