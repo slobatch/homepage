@@ -17,6 +17,8 @@ WORKDIR /slobatch.github.io
 
 RUN bundle install
 
+RUN crontab crons.conf
+
 EXPOSE 4000
 
 CMD ["jekyll", "serve"]
