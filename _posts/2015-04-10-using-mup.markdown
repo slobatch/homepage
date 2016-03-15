@@ -83,7 +83,7 @@ It's time to learn from my mistakes again. Chances are, you're going to want to 
 - **Port 22**: SSH
     * This is the floor of our building that conducts SSH business. It will allow you to get into your virtual server at AWS remotely. If you can't do this, you'll be really limited.
     * This port is open by default in a new security group. Don't close it.
-- **Port 80**: HTML
+- **Port 80**: HTTP
     * This is the floor of our building that conducts regular old internet business. If you want to serve any webpages that people can access from their browser, you will want to have this port open.
 
 ### Step 7: Review your launch, and setup a key pair:
