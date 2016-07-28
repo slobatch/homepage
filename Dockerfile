@@ -14,9 +14,9 @@ MAINTAINER slobatch
 RUN gem install bundler
 
 # Clone remote git repo
-RUN git clone https://github.com/slobatch/slobatch.github.io.git
+RUN git clone https://github.com/slobatch/homepage.git
 
-WORKDIR /slobatch.github.io
+WORKDIR /homepage
 
 RUN bundle install
 
